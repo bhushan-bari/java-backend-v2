@@ -4,25 +4,33 @@ public class LoginAttemptDemo {
 
     public static void main(String[] args) {
 
-        int attempts = 0;
-        int maxAttempts = 3;
+        int correctPin = 1234;
+
+        int[] pinAttempts = {1111, 2222, 1234};
+
+        int attempt = 0;
         boolean loginSuccessful = false;
 
-        while (attempts < maxAttempts && !loginSuccessful) {
+        while (attempt < 3 && !loginSuccessful) {
 
-            attempts++;
+            int enteredPin = pinAttempts[attempt];
 
-            System.out.println("Login attempt: " + attempts);
+            if (enteredPin == correctPin) {
 
-            if (attempts == 3) {
+                System.out.println("Attempt " + (attempt + 1) + ": Login Successful");
+
                 loginSuccessful = true;
+
+            } else {
+
+                System.out.println("Attempt " + (attempt + 1) + ": Invalid PIN");
             }
+
+            attempt++;
         }
 
-        if (loginSuccessful) {
-            System.out.println("Login successful.");
-        } else {
-            System.out.println("Account locked after " + maxAttempts + " attempts.");
+        if (!loginSuccessful) {
+            System.out.println("Account Locked");
         }
     }
 }

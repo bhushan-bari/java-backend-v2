@@ -4,25 +4,20 @@ public class TransactionLoopDemo {
 
     public static void main(String[] args) {
 
-        double[] transactions = {
-                1200.50,
-                2500.00,
-                750.75,
-                4300.00,
-                1500.25
-        };
+        int balance = 50000;
 
-        double total = 0;
+        int[] transactions = {5000, 3000, 7500, 2000, 4000};
 
         for (int i = 0; i < transactions.length; i++) {
-            System.out.println(
-                    "Transaction " + (i + 1) + ": ₹" + transactions[i]
-            );
 
-            total = total + transactions[i];
+            System.out.println("Transaction " + (i + 1) + ": ₹" + transactions[i]);
+
+            balance = balance - transactions[i];
+
+            System.out.println("Remaining Balance: ₹" + balance);
+            System.out.println();
         }
 
-        System.out.println("--------------------");
-        System.out.println("Total Transaction Amount: ₹" + total);
+        System.out.println("Final Balance: ₹" + balance);
     }
 }
