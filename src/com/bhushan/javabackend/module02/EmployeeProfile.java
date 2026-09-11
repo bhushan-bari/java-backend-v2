@@ -1,4 +1,4 @@
-package com.bhushan.javabackend;
+package com.bhushan.javabackend.module02;
 
 public class EmployeeProfile {
 
@@ -13,7 +13,7 @@ public class EmployeeProfile {
         System.out.println("===== Employee Profile =====");
         System.out.println("Employee ID: " + employeeId);
         System.out.println("Employee Name: " + employeeName);
-        System.out.println("Salary: ₹" + salary);
+        System.out.println("Salary: â‚¹" + salary);
         System.out.println("Department: " + department);
         System.out.println("Permanent Employee: " + permanentEmployee);
     }

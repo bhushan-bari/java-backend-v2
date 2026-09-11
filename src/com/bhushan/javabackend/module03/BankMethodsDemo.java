@@ -1,4 +1,4 @@
-package com.bhushan.javabackend;
+package com.bhushan.javabackend.module03;
 
 public class BankMethodsDemo {
 
@@ -24,7 +24,7 @@ public class BankMethodsDemo {
 
         System.out.println("Transaction ID   : " + transactionId);
         System.out.println("Transaction Type : " + transactionType);
-        System.out.println("Amount           : ₹" + amount);
+        System.out.println("Amount           : â‚¹" + amount);
     }
 
     // Method 4: Calculate interest
@@ -44,7 +44,7 @@ public class BankMethodsDemo {
                 5000
         );
 
-        System.out.println("Final Balance: ₹" + finalBalance);
+        System.out.println("Final Balance: â‚¹" + finalBalance);
         System.out.println();
 
         // Method 2
@@ -69,6 +69,6 @@ public class BankMethodsDemo {
 
         // Method 4
         double interest = calculateInterest(finalBalance, 6.5);
-        System.out.println("Calculated Interest: ₹" + interest);
+        System.out.println("Calculated Interest: â‚¹" + interest);
     }
 }

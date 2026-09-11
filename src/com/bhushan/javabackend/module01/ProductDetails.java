@@ -1,4 +1,4 @@
-package com.bhushan.javabackend;
+package com.bhushan.javabackend.module01;
 
 public class ProductDetails {
 
@@ -15,9 +15,9 @@ public class ProductDetails {
         System.out.println("===== Product Details =====");
         System.out.println("Product ID: " + productId);
         System.out.println("Product Name: " + productName);
-        System.out.println("Price: ₹" + price);
+        System.out.println("Price: â‚¹" + price);
         System.out.println("Quantity: " + quantity);
         System.out.println("Available: " + available);
-        System.out.println("Total Amount: ₹" + totalAmount);
+        System.out.println("Total Amount: â‚¹" + totalAmount);
     }
 }

@@ -1,4 +1,4 @@
-package com.bhushan.javabackend;
+package com.bhushan.javabackend.module02;
 
 public class BankTransaction {
 
@@ -13,7 +13,7 @@ public class BankTransaction {
         System.out.println("===== Bank Transaction =====");
         System.out.println("Transaction ID: " + transactionId);
         System.out.println("Account Number: " + accountNumber);
-        System.out.println("Amount: ₹" + amount);
+        System.out.println("Amount: â‚¹" + amount);
         System.out.println("Transaction Type: " + transactionType);
         System.out.println("Successful: " + successful);
     }

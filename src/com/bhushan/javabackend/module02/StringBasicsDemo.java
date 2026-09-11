@@ -1,4 +1,4 @@
-package com.bhushan.javabackend;
+package com.bhushan.javabackend.module02;
 
 public class StringBasicsDemo {
 

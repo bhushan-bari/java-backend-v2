@@ -1,4 +1,4 @@
-package com.bhushan.javabackend;
+package com.bhushan.javabackend.module03;
 
 public class BankTransactionChallenge {
 
@@ -33,8 +33,8 @@ public class BankTransactionChallenge {
 
         System.out.println("Transaction ID     : " + transactionId);
         System.out.println("Transaction Type   : " + transactionType);
-        System.out.println("Transaction Amount : ₹" + amount);
-        System.out.println("Remaining Balance  : ₹" + remainingBalance);
+        System.out.println("Transaction Amount : â‚¹" + amount);
+        System.out.println("Remaining Balance  : â‚¹" + remainingBalance);
     }
 
     // Method 5
@@ -61,7 +61,7 @@ public class BankTransactionChallenge {
                 5000
         );
 
-        System.out.println("Initial Balance: ₹" + balance);
+        System.out.println("Initial Balance: â‚¹" + balance);
         System.out.println();
 
         boolean eligible = isEligibleForTransaction(
@@ -97,6 +97,6 @@ public class BankTransactionChallenge {
                 6.5
         );
 
-        System.out.println("Interest @ 6.5%: ₹" + interest);
+        System.out.println("Interest @ 6.5%: â‚¹" + interest);
     }
 }

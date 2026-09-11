@@ -1,4 +1,4 @@
-package com.bhushan.javabackend;
+package com.bhushan.javabackend.module01;
 
 public class BankAccountDemo {
 
@@ -11,7 +11,7 @@ public class BankAccountDemo {
 
         System.out.println("Account Number: " + accountNumber);
         System.out.println("Account Holder: " + accountHolder);
-        System.out.println("Balance: ₹" + balance);
+        System.out.println("Balance: â‚¹" + balance);
         System.out.println("Account Type: " + accountType);
     }
 }
