@@ -1,4 +1,4 @@
-package com.bhushan.javabackend.module08;
+package com.bhushan.javabackend.module09;
 
 class MethodReferenceProduct {
 
